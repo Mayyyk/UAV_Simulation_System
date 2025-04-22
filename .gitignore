@@ -1,0 +1,36 @@
+# === ROS2 build artifacts ===
+build/
+install/
+log/
+*.log
+*.pyc
+__pycache__/
+
+# === Colcon and setup files ===
+.colcon_install_layout
+COLCON_IGNORE
+setup.*
+local_setup.*
+_local_setup_*
+
+# === VSCode settings ===
+.vscode/
+
+# === Python packaging ===
+*.egg-info/
+dist/
+*.egg
+*.pyd
+*.pyo
+*.pdb
+.env/
+.venv/
+
+# === CMake & build systems ===
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# === Ignore ROS tutorial examples if not used ===
+ros_tutorials/
